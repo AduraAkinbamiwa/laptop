@@ -42,7 +42,7 @@
   .assets {
     display: flex;
     flex-direction: column;
-    margin-left: auto;
+    margin-left: 15px;
   }
 }
 
