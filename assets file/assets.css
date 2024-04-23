@@ -233,16 +233,8 @@
   gap: 30px;
 }
 
-.img-01 {
-  height: 150px;
-}
-
-.img-02 {
-  height: 150px;
-}
-
-.img-03 {
-  height: 150px;
+.img-01, .img-02, .img-03 {
+  height: 115px;
 }
 
 .h-2 {
