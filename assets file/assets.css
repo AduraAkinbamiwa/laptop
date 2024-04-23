@@ -10,7 +10,7 @@
   display: flex;
   margin: auto;
   flex-direction: column;
-  margin: 0 90px 0 90px;
+  margin: 0 80px 0 80px;
 }
 
 @media (max-width: 375px) {
@@ -234,7 +234,7 @@
 }
 
 .img-01, .img-02, .img-03 {
-  height: 115px;
+  height: 140px;
 }
 
 .h-2 {
@@ -246,14 +246,15 @@
 .p-1,
 .p-2,
 .p-3 {
-  width: 240px;
+  width: 220px;
   line-height: 25px;
   opacity: 0.5;
+  font-size: 15px;
 }
 
 .Reviving,
 .top-10,
 .Growth {
-  font-size: 20px;
+  font-size: 16px;
   margin-bottom: 9px;
 }
