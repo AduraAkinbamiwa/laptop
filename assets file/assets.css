@@ -5,160 +5,47 @@
   margin: 0;
   padding: 0;
 }
-
 .assets {
   display: flex;
   margin: auto;
   flex-direction: column;
   margin: 0 80px 0 80px;
 }
-
-@media (max-width: 375px) {
-  .assets {
-    display: flex;
-    flex-direction: column;
-    margin: 0 10px 0 10px;
-  }
-}
-
 .menu-icon {
   display: none;
 }
-
-@media (max-width:375px) {
-  .menu-icon {
-    display: inline-block;
-    width: 30px;
-  }
-}
-
-@media (max-width:375px) {
-  .logo {
-    max-width: 270px;
-  }
-}
-
-@media (max-width: 375px) {
-  .semi-header {
-    display: flex;
-  }
-}
-
 .assets-header {
   display: flex;
   justify-content: space-between;
   margin: 20px 0 50px 0px;
 }
-
-@media (max-width:575px) {
-  .assets-header {
-    justify-content: space-between;
-    display: flex;
-    gap: 50px;
-  }
-}
-
 .semi-header {
   display: flex;
   gap: 30px;
 }
-
-@media (max-width: 375px) {
-  .semi-header p {
-    display: none;
-  }
-}
-
 .assets-body {
   display: flex;
   justify-content: space-between;
   margin: 0 0 50px;
 }
-
-@media (max-width:375px) {
-  .assets-body {
-    display: flex;
-    flex-direction: column;
-  }
-}
-
 .img-1 {
   margin-bottom: 30px;
 }
-
 .img {
   max-width: 740px;
 }
-
-@media (max-width:375px) {
-  .img {
-    display: none;
-  }
-}
-
 .img2 {
   display: none;
 }
-
-@media (max-width:375px) {
-  .img2 {
-    display: flex;
-    width: 340px;
-    height: 300px;
-  }
-}
-
 .body {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 150px;
 }
-
-@media (max-width:375px) {
-  .body {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 20px;
-  }
-}
-
 .Future {
   max-width: 260px;
   font-size: 50px;
 }
-
-
-@media (max-width: 375px) {
-  .Future {
-    max-width: 360px;
-    font-size: 48px;
-  }
-}
-
-@media (max-width: 375px) {
-  .dive-div {
-    margin-bottom: 40px;
-  }
-}
-
-
-@media (max-width: 375px) {
-  .dive {
-    margin-bottom: 20px;
-    max-width: 470px;
-    font-size: 14px;
-  }
-}
-
-@media (min-width: 375px) {
-  .dive {
-    max-width: 300px;
-    margin-bottom: 70px;
-    line-height: 20px;
-    opacity: 0.5;
-  }
-}
-
 .Read-more {
   padding: 10px 35px 10px 35px;
   background-color: hsl(5, 85%, 63%);
@@ -166,49 +53,34 @@
   border: solid;
   border-radius: 2px;
 }
-
 .Read-more:hover {
   cursor: pointer;
 }
-
 .Read-more:active {
   cursor: pointer;
   background-color: white;
   color: hsl(5, 85%, 63%);
 }
-
 .body-header {
   background-color: hsl(240, 100%, 5%);
   padding: 20px 0 0 20px;
 }
-
-@media (max-width: 375px) {
-  .body-header {
-    display: inline-block;
-    padding: 20px 0 0 20px;
-  }
-}
-
 .body-header h2 {
   color: hsl(35, 77%, 62%);
 }
-
 .body-header h3 {
   width: 300px;
   color: white;
   margin-top: 20px;
 }
-
 .body-header p {
   color: white;
   margin-top: 10px;
 }
-
 .body-header div {
   margin-bottom: 65px;
   margin-top: 40px;
 }
-
 .p1,
 .p2,
 .p3 {
@@ -217,21 +89,11 @@
   opacity: 0.5;
   font-size: 14px;
 }
-
 .assets-bottom {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   margin: 0 0 90px 0;
 }
-
-@media (max-width:375px) {
-  .assets-bottom {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 30px;
-  }
-}
-
 .bottom-1,
 .bottom-2,
 .bottom-3 {
@@ -244,13 +106,11 @@
 .img-03 {
   height: 140px;
 }
-
 .h-2 {
   opacity: 0.5;
   margin-bottom: 20px;
   font-size: 35px;
 }
-
 .p-1,
 .p-2,
 .p-3 {
@@ -265,4 +125,75 @@
 .Growth {
   font-size: 16px;
   margin-bottom: 9px;
+}
+
+
+@media (max-width: 375px) {
+  .assets {
+    display: flex;
+    flex-direction: column;
+    margin: 0 10px 0 10px;
+  }
+    .menu-icon {
+    display: inline-block;
+    width: 30px;
+  }
+    .logo {
+    max-width: 270px;
+  }
+    .semi-header {
+    display: flex;
+  }
+    .img {
+    display: none;
+  }
+    .assets-header {
+    justify-content: space-between;
+    display: flex;
+    gap: 50px;
+  }
+    .semi-header p {
+    display: none;
+  }
+    .img2 {
+    display: flex;
+    width: 340px;
+    height: 300px;
+  }
+    .assets-body {
+    display: flex;
+    flex-direction: column;
+  }
+    .assets-bottom {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+    .body-header {
+    display: inline-block;
+    padding: 20px 0 0 20px;
+  }
+    .dive {
+    max-width: 300px;
+    margin-bottom: 70px;
+    line-height: 20px;
+    opacity: 0.5;
+  }
+    .dive {
+    margin-bottom: 20px;
+    max-width: 470px;
+    font-size: 14px;
+  }
+   .Future {
+    max-width: 360px;
+    font-size: 48px;
+  }
+  .dive-div {
+    margin-bottom: 40px;
+  }
+    .body {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
 }
