@@ -10,7 +10,7 @@
   display: flex;
   margin: auto;
   flex-direction: column;
-  margin: 0 30px 0 30px;
+  margin: 0 90px 0 90px;
 }
 
 @media (max-width: 375px) {
@@ -87,7 +87,7 @@
 }
 
 .img {
-  max-width: 840px;
+  max-width: 740px;
 }
 
 @media (max-width:375px) {
@@ -111,7 +111,7 @@
 .body {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 240px;
+  gap: 150px;
 }
 
 @media (max-width:375px) {
