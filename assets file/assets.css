@@ -129,28 +129,34 @@
 
 
 @media (max-width: 375px) {
-  .Future{
+  .Future {
     max-width: 360px;
     font-size: 48px;
+  }
+}
+
+@media (max-width: 375px) {
+  .dive-div {
+    margin-bottom: 40px;
   }
 }
 
 
 @media (max-width: 375px) {
   .dive {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+    max-width: 470px;
+    font-size: 14px;
   }
 }
 
-/* .dive-div {
-  gap:2000px;
-} */
-
-.dive {
-  max-width: 300px;
-  margin-bottom: 70px;
-  line-height: 20px;
-  opacity: 0.5;
+@media (min-width: 375px) {
+  .dive {
+    max-width: 300px;
+    margin-bottom: 70px;
+    line-height: 20px;
+    opacity: 0.5;
+  }
 }
 
 .Read-more {
@@ -233,7 +239,9 @@
   gap: 30px;
 }
 
-.img-01, .img-02, .img-03 {
+.img-01,
+.img-02,
+.img-03 {
   height: 140px;
 }
 
